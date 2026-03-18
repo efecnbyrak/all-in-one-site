@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic global styles to ensure good default UI */
+html, body, #__next {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
