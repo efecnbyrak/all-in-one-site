@@ -1,7 +1,7 @@
 import type { NextRequest } from 'next/server'
 import { NextResponse } from 'next/server'
 
-export const runtime = 'nodejs18.x'
+export const runtime = 'nodejs24.x'
 
 export async function POST(request: NextRequest) {
   try {
