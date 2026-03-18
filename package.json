@@ -2,6 +2,9 @@
   "name": "multi-tools-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,7 +20,7 @@
     "autoprefixer": "^10.4.13",
     "typescript": "^5.1.6",
     "pdf-parse": "^1.1.2",
-    "pdfkit": "^0.12.3",
+    "pdf-lib": "^1.0.0",
     "mammoth": "^1.4.2",
     "mathjs": "^11.9.0"
   }
