@@ -10,6 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx"
+    ,
+    "refresh-lock": "rm -f package-lock.json && npm install"
   },
   "dependencies": {
     "next": "13.4.0",
